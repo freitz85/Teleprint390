@@ -1,0 +1,166 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid cd0f4ebc-2263-4b6f-9d1d-945bc55e1ca3)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 204.47 76.2) (size 49.53 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2717b309-643c-4b6e-9d0b-74958e6abb44)
+    (property "Sheet name" "BS270" (id 0) (at 204.47 75.4884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "BS270.kicad_sch" (id 1) (at 204.47 104.7246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "20" bidirectional (at 204.47 78.74 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid c7b34fcb-ac7c-4964-b39a-37bb1e856f28)
+    )
+    (pin "22" bidirectional (at 204.47 82.55 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 725fa0ba-0908-4afd-bde8-62ebb33d4133)
+    )
+    (pin "1" bidirectional (at 204.47 86.36 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 10669882-780b-4fba-ab3a-714c566a0399)
+    )
+    (pin "2" bidirectional (at 204.47 90.17 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 19fed19d-c653-4d29-9bef-1aecb59afc04)
+    )
+    (pin "19" bidirectional (at 204.47 93.98 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 09910216-9b6b-4009-97fd-74625d7d82ea)
+    )
+    (pin "6" bidirectional (at 204.47 97.79 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid f9a4421d-0743-43ee-8fff-b6b7d94c4030)
+    )
+    (pin "7" bidirectional (at 204.47 101.6 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 46a16454-0020-45db-8c58-258de0e6b638)
+    )
+    (pin "8" bidirectional (at 213.36 76.2 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 45a7a4c2-03f8-4cea-ae9e-98d0a1a40cfa)
+    )
+    (pin "17" bidirectional (at 218.44 76.2 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 9534633e-8f35-4fd1-b2b7-fabb4886c598)
+    )
+  )
+
+  (sheet (at 204.47 31.75) (size 48.26 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9fbb2cdd-34c8-463e-9182-0816f704241f)
+    (property "Sheet name" "BS230" (id 0) (at 204.47 31.0384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "BS230.kicad_sch" (id 1) (at 204.47 57.7346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/2717b309-643c-4b6e-9d0b-74958e6abb44" (page "2"))
+    (path "/9fbb2cdd-34c8-463e-9182-0816f704241f" (page "3"))
+  )
+
+  (symbol_instances
+    (path "/9fbb2cdd-34c8-463e-9182-0816f704241f/a2da2389-3358-4812-9ced-bddee536bbd5"
+      (reference "C1") (unit 1) (value "1000u/16V") (footprint "")
+    )
+    (path "/2717b309-643c-4b6e-9d0b-74958e6abb44/c703437d-39fd-4f59-b763-00d43c5a8d45"
+      (reference "C1") (unit 1) (value "100u/160V") (footprint "")
+    )
+    (path "/9fbb2cdd-34c8-463e-9182-0816f704241f/2b508b02-5b19-417f-91ba-db4341cba650"
+      (reference "C2") (unit 1) (value "220u/16V") (footprint "")
+    )
+    (path "/9fbb2cdd-34c8-463e-9182-0816f704241f/64d79ad3-cd38-415b-a9f1-1d4be70b1c22"
+      (reference "C3") (unit 1) (value "47u/35V") (footprint "")
+    )
+    (path "/9fbb2cdd-34c8-463e-9182-0816f704241f/c6b7017b-0195-48da-9e70-5f66960bd78f"
+      (reference "D1") (unit 1) (value "B250C1000") (footprint "Diode_THT:Diode_Bridge_Round_D9.8mm")
+    )
+    (path "/9fbb2cdd-34c8-463e-9182-0816f704241f/d8c002f0-b9c9-40f9-bce5-f65cae6a184f"
+      (reference "D2") (unit 1) (value "1N4007") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
+    )
+    (path "/2717b309-643c-4b6e-9d0b-74958e6abb44/0a54a81e-ad16-491c-919f-05d766725777"
+      (reference "D?") (unit 1) (value "1N4007") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
+    )
+    (path "/2717b309-643c-4b6e-9d0b-74958e6abb44/4f7261e5-ef52-4f59-bbbd-a0c1166b7760"
+      (reference "D?") (unit 1) (value "1N4007") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
+    )
+    (path "/2717b309-643c-4b6e-9d0b-74958e6abb44/551e7423-e521-494e-8791-6a3fd31e9cf8"
+      (reference "D?") (unit 1) (value "1N4007") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
+    )
+    (path "/2717b309-643c-4b6e-9d0b-74958e6abb44/9a90c66a-7d60-44d9-8111-87919ba45203"
+      (reference "F1") (unit 1) (value "1.6A") (footprint "")
+    )
+    (path "/9fbb2cdd-34c8-463e-9182-0816f704241f/fcf14f02-838e-4ead-bc0e-5ee037b6a3d3"
+      (reference "F1") (unit 1) (value "1.6A") (footprint "")
+    )
+    (path "/2717b309-643c-4b6e-9d0b-74958e6abb44/0cdf8117-19e8-4d9a-b087-ad130f1f0403"
+      (reference "F2") (unit 1) (value "1.6A") (footprint "")
+    )
+    (path "/9fbb2cdd-34c8-463e-9182-0816f704241f/3ef07fc2-05b1-453b-bae6-55f0aad27aae"
+      (reference "F2") (unit 1) (value "1.6A") (footprint "")
+    )
+    (path "/2717b309-643c-4b6e-9d0b-74958e6abb44/83af634a-4b50-4f81-a306-04c8fad0a49a"
+      (reference "K?") (unit 1) (value "ADW11") (footprint "Relay_THT:Relay_1P1T_NO_10x24x18.8mm_Panasonic_ADW11xxxxW_THT")
+    )
+    (path "/9fbb2cdd-34c8-463e-9182-0816f704241f/df14a2b6-2797-4239-8daf-b68e5e789ae3"
+      (reference "Q3") (unit 1) (value "BC140-6") (footprint "")
+    )
+    (path "/9fbb2cdd-34c8-463e-9182-0816f704241f/48928d2b-585c-4404-9c7e-c202f4fca147"
+      (reference "Q4") (unit 1) (value "BC317A") (footprint "")
+    )
+    (path "/9fbb2cdd-34c8-463e-9182-0816f704241f/73baec1f-0a1d-4092-9c0f-f8370d3a14f2"
+      (reference "Q5") (unit 1) (value "BC140-6") (footprint "")
+    )
+    (path "/2717b309-643c-4b6e-9d0b-74958e6abb44/b2db63c4-1673-4301-aa17-524271f0b4ec"
+      (reference "R1") (unit 1) (value "3k9") (footprint "")
+    )
+    (path "/2717b309-643c-4b6e-9d0b-74958e6abb44/92573811-f1df-4ca8-8676-407a4d4c7ead"
+      (reference "R4") (unit 1) (value "3k9") (footprint "")
+    )
+    (path "/9fbb2cdd-34c8-463e-9182-0816f704241f/49c50c3e-c8d6-453f-92e4-516c53edf2d1"
+      (reference "R9") (unit 1) (value "R") (footprint "")
+    )
+    (path "/9fbb2cdd-34c8-463e-9182-0816f704241f/75ad9beb-d1fe-49be-8b48-a3bedd904ed0"
+      (reference "R10") (unit 1) (value "R") (footprint "")
+    )
+    (path "/9fbb2cdd-34c8-463e-9182-0816f704241f/26232bb1-9a3e-4199-83ea-99a2c6e3f0dd"
+      (reference "R13") (unit 1) (value "R") (footprint "")
+    )
+    (path "/9fbb2cdd-34c8-463e-9182-0816f704241f/b919cd47-ce3f-4236-8312-16d537ac9551"
+      (reference "R14") (unit 1) (value "R") (footprint "")
+    )
+    (path "/9fbb2cdd-34c8-463e-9182-0816f704241f/001b80c3-6c6a-4f02-9b32-0290371884c8"
+      (reference "R15") (unit 1) (value "R") (footprint "")
+    )
+    (path "/9fbb2cdd-34c8-463e-9182-0816f704241f/d41c315d-5efc-4c03-9957-7e94c816a5b3"
+      (reference "R21") (unit 1) (value "R") (footprint "")
+    )
+    (path "/9fbb2cdd-34c8-463e-9182-0816f704241f/266d48d7-2d2c-4923-9acd-c4c845426d47"
+      (reference "R?") (unit 1) (value "R") (footprint "")
+    )
+    (path "/9fbb2cdd-34c8-463e-9182-0816f704241f/8c53340c-d1fb-47ec-a399-673735c9f87a"
+      (reference "R?") (unit 1) (value "R") (footprint "")
+    )
+    (path "/9fbb2cdd-34c8-463e-9182-0816f704241f/bf2bd1c5-04a5-4f62-b896-fc469e559dbe"
+      (reference "R?") (unit 1) (value "R") (footprint "")
+    )
+    (path "/9fbb2cdd-34c8-463e-9182-0816f704241f/f0bc78f5-9d08-46fe-b00c-26868595f1cc"
+      (reference "R?") (unit 1) (value "47") (footprint "")
+    )
+  )
+)
