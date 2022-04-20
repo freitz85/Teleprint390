@@ -2513,7 +2513,7 @@
     (property "Reference" "SW?" (id 0) (at 286.893 231.5753 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (property "Value" "" (id 1) (at 288.29 229.87 0)
+    (property "Value" "Break" (id 1) (at 288.29 229.87 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "" (id 2) (at 285.75 232.41 0)
@@ -2940,10 +2940,10 @@
     (path "/101b9162-4dd2-4598-8eb9-9b7e9c3ad37f/00000000-0000-0000-0000-00006255874e"
       (reference "D3") (unit 1) (value "ZS70") (footprint "")
     )
-    (path "/101b9162-4dd2-4598-8eb9-9b7e9c3ad37f/00000000-0000-0000-0000-0000625584c8"
+    (path "/9fbb2cdd-34c8-463e-9182-0816f704241f/00000000-0000-0000-0000-0000625584c8"
       (reference "D4") (unit 1) (value "ZS70") (footprint "")
     )
-    (path "/9fbb2cdd-34c8-463e-9182-0816f704241f/00000000-0000-0000-0000-0000625584c8"
+    (path "/101b9162-4dd2-4598-8eb9-9b7e9c3ad37f/00000000-0000-0000-0000-0000625584c8"
       (reference "D4") (unit 1) (value "ZS70") (footprint "")
     )
     (path "/9fbb2cdd-34c8-463e-9182-0816f704241f/00000000-0000-0000-0000-0000625564d1"
@@ -2970,10 +2970,10 @@
     (path "/2717b309-643c-4b6e-9d0b-74958e6abb44/551e7423-e521-494e-8791-6a3fd31e9cf8"
       (reference "D?") (unit 1) (value "1N4007") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
     )
-    (path "/101b9162-4dd2-4598-8eb9-9b7e9c3ad37f/00000000-0000-0000-0000-00006255a945"
+    (path "/9fbb2cdd-34c8-463e-9182-0816f704241f/00000000-0000-0000-0000-00006255a945"
       (reference "F1") (unit 1) (value "1.5A") (footprint "")
     )
-    (path "/9fbb2cdd-34c8-463e-9182-0816f704241f/00000000-0000-0000-0000-00006255a945"
+    (path "/101b9162-4dd2-4598-8eb9-9b7e9c3ad37f/00000000-0000-0000-0000-00006255a945"
       (reference "F1") (unit 1) (value "1.5A") (footprint "")
     )
     (path "/2717b309-643c-4b6e-9d0b-74958e6abb44/9a90c66a-7d60-44d9-8111-87919ba45203"
